@@ -26,3 +26,7 @@ This project demonstrates the basics of controlling an LED using an Arduino Uno.
 
 - Control blink speed using a potentiometer.
 - Replace `delay()` with `millis()` for non-blocking execution.
+
+  ## Circuit Diagram
+
+![LED Blink Circuit](circuit.png)
