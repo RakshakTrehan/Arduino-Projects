@@ -29,4 +29,4 @@ This project demonstrates the basics of controlling an LED using an Arduino Uno.
 
   ## Circuit Diagram
 
-![LED Blink Circuit](circuit.png)
+![LED Blink Circuit](LED_Blink_Circuit.png)
