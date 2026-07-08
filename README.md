@@ -1,32 +1,41 @@
 # Arduino Projects
 
-Welcome to my Arduino and IoT learning repository!
+![Arduino](https://img.shields.io/badge/Arduino-Uno-blue)
+![Language](https://img.shields.io/badge/Language-C++-orange)
+![Platform](https://img.shields.io/badge/Platform-Tinkercad-red)
 
-This repository contains the Arduino projects I have built while learning Embedded Systems and IoT using **Tinkercad**.
+Welcome!
 
-## Projects
+This repository documents my journey of learning **Arduino**, **Embedded Systems**, and **IoT** through hands-on projects.
 
-| No. | Project | Concepts |
-|-----|---------|----------|
-| 1 | LED Blink | Digital Output, pinMode(), digitalWrite() |
-| 2 | RGB Traffic Light | RGB LEDs, Timing, Sequential Logic |
-| 3 | PWM Brightness Control | PWM, analogWrite(), Potentiometer |
-| 4 | Push Button Controlled LED | Digital Input, Conditional Logic |
-
-## Technologies Used
-
-- Arduino Uno
-- Tinkercad
-- Arduino IDE
-- Embedded C / C++
-
-## Learning Goals
-
-- Learn Embedded Systems fundamentals
-- Build real-world IoT projects
-- Transition from simulations to physical hardware
-- Explore ESP32/ESP8266 and cloud-based IoT
+Each project includes:
+- Source code (.ino)
+- Circuit diagram
+- Documentation
+- Concepts learned
 
 ---
 
-⭐ This repository will continue to grow as I build more Arduino and IoT projects.
+## Projects
+
+| No. | Project | Description |
+|-----|----------|-------------|
+| 1 | LED Blink | Basic digital output using Arduino |
+| 2 | RGB Traffic Light | RGB LED sequencing and timing |
+| 3 | Push Button Controlled LED | Digital input and conditional logic |
+| 4 | PWM Brightness Control | Analog input and PWM output |
+
+---
+
+## Technologies
+
+- Arduino Uno
+- Embedded C / Arduino C++
+- Tinkercad
+- PWM
+- Digital I/O
+- Analog Input
+
+---
+
+More projects will be added as I continue learning Arduino and IoT.
