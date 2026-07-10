@@ -1,41 +1,72 @@
 # Arduino Projects
 
 ![Arduino](https://img.shields.io/badge/Arduino-Uno-blue)
-![Language](https://img.shields.io/badge/Language-C++-orange)
+![Language](https://img.shields.io/badge/Language-Arduino_C++-orange)
 ![Platform](https://img.shields.io/badge/Platform-Tinkercad-red)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-Welcome!
-
-This repository documents my journey of learning **Arduino**, **Embedded Systems**, and **IoT** through hands-on projects.
-
-Each project includes:
-- Source code (.ino)
-- Circuit diagram
-- Documentation
-- Concepts learned
+A collection of Arduino and IoT projects demonstrating fundamental embedded systems concepts using Arduino Uno and Tinkercad.
 
 ---
 
-## Projects
+## 📂 Projects
 
 | No. | Project | Description |
-|-----|----------|-------------|
-| 1 | LED Blink | Basic digital output using Arduino |
-| 2 | RGB Traffic Light | RGB LED sequencing and timing |
-| 3 | Push Button Controlled LED | Digital input and conditional logic |
-| 4 | PWM Brightness Control | Analog input and PWM output |
+|:---:|---------|-------------|
+| 01 | LED Blink | Basic digital output using an LED |
+| 02 | RGB Traffic Light | RGB LED sequencing with timing control |
+| 03 | Push Button Controlled LED | LED control using a push button |
+| 04 | PWM Brightness Control | LED brightness control using PWM and a potentiometer |
+| 05 | Alert System | LED and buzzer based visual and audible alert |
 
 ---
 
-## Technologies
+## 📁 Repository Structure
+
+```
+Arduino-Projects/
+│
+├── 01_LED_Blink/
+├── 02_RGB_Traffic_Light/
+├── 03_Push_Button_Controlled_LED/
+├── 04_PWM_Brightness_Control/
+└── 05_Alert_System/
+```
+
+Each project folder contains:
+
+- Arduino source code (`.ino`)
+- Circuit diagram
+- Project documentation (README)
+- Components used
+- Concepts demonstrated
+
+---
+
+## 🛠 Technologies
 
 - Arduino Uno
-- Embedded C / Arduino C++
+- Arduino IDE
+- Arduino C++
 - Tinkercad
-- PWM
+- Embedded Systems
 - Digital I/O
 - Analog Input
+- PWM
 
 ---
 
-More projects will be added as I continue learning Arduino and IoT.
+## 🔧 Components
+
+- LEDs
+- RGB LED
+- Push Button
+- Potentiometer
+- Active Buzzer
+- Resistors
+- Jumper Wires
+- Breadboard
+
+---
+
+This repository will continue to be updated with additional Arduino and IoT projects.
