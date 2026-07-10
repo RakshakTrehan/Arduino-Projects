@@ -24,7 +24,7 @@ This project demonstrates a simple alert system using an Arduino Uno, an LED, an
 
 ## Circuit Diagram
 
-_Add `Alert_System_Circuit.png` here after uploading it._
+![Alert System Circuit](Alert_System_Circuit.png)
 
 ## Author
 Rakshak Trehan
