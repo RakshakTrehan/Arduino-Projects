@@ -1,24 +1,25 @@
 # Arduino Projects
 
-![Arduino](https://img.shields.io/badge/Arduino-Uno-blue)
-![Language](https://img.shields.io/badge/Language-Arduino%20C%2B%2B-orange)
-![Platform](https://img.shields.io/badge/Platform-Tinkercad-red)
-![Status](https://img.shields.io/badge/Projects-6-success)
+![Arduino](https://img.shields.io/badge/Arduino-Uno-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![Language](https://img.shields.io/badge/Language-Arduino%20C%2B%2B-orange?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Tinkercad-red?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
-A collection of Arduino and IoT projects demonstrating core embedded systems concepts using **Arduino Uno**, **Arduino IDE**, and **Tinkercad**.
+A collection of Arduino-based embedded systems projects built using **Arduino Uno**, **Arduino IDE**, and **Tinkercad**. This repository demonstrates fundamental concepts including digital I/O, analog sensing, PWM, sensors, and automation through practical hardware projects.
 
 ---
 
 ## 📂 Projects
 
 | No. | Project | Description |
-| --- | ------- | ----------- |
-| 01 | LED Blink | Basic LED blinking using digital output |
-| 02 | RGB Traffic Light | RGB LED sequencing with timing control |
-| 03 | Push Button Controlled LED | LED control using a push button |
-| 04 | PWM Brightness Control | LED brightness control using PWM and a potentiometer |
+|:---:|---------|-------------|
+| 01 | LED Blink | Basic LED control using digital output |
+| 02 | RGB Traffic Light | RGB LED sequencing with timed state transitions |
+| 03 | Push Button Controlled LED | LED control using a push button input |
+| 04 | PWM Brightness Control | Brightness control using PWM and a potentiometer |
 | 05 | Alert System | LED and buzzer based visual and audible alert |
-| 06 | Smart Desktop Companion Lamp | Automatic LED lamp using an LDR for ambient light detection |
+| 06 | Smart Desktop Companion Lamp | Automatic desk lamp using an LDR sensor |
+| 07 | Smart Street Light | Automatic street lighting based on ambient light |
 
 ---
 
@@ -32,55 +33,79 @@ Arduino-Projects/
 ├── 03_Push_Button_Controlled_LED/
 ├── 04_PWM_Brightness_Control/
 ├── 05_Alert_System/
-└── 06_Smart_Desktop_Companion_Lamp/
+├── 06_Smart_Desktop_Companion_Lamp/
+└── 07_Smart_Street_Light/
 ```
 
-Each project folder contains:
+Each project contains:
 
 - Arduino source code (`.ino`)
 - Circuit diagram
-- Project documentation (`README.md`)
+- Project documentation
 - Components used
 - Concepts demonstrated
 
 ---
 
-## 🛠 Technologies
+## 🛠 Hardware
 
 - Arduino Uno
-- Arduino IDE
-- Arduino C++
-- Tinkercad
-- Embedded Systems
-- Digital I/O
-- Analog Input
-- PWM
-- Sensor Interfacing
-
----
-
-## 🔧 Components
-
+- Breadboard
 - LEDs
 - RGB LED
-- Push Button
+- LDR (Light Dependent Resistor)
 - Potentiometer
-- LDR (Photoresistor)
+- Push Button
 - Active Buzzer
 - Resistors
-- Breadboard
 - Jumper Wires
 
 ---
 
-## 🎯 Project Highlights
+## 💻 Software
 
-- Digital Input & Output
-- PWM Signal Generation
-- Analog Sensor Reading
-- Conditional Logic
-- Timing Functions
-- Sensor-Based Automation
-- Basic Embedded System Design
+- Arduino IDE
+- Tinkercad
+- Arduino C++
 
 ---
+
+## 📚 Concepts Covered
+
+- Digital Input & Output
+- Analog Input
+- PWM (Pulse Width Modulation)
+- Conditional Logic
+- Sensor Interfacing
+- Serial Communication
+- Embedded Programming
+- Basic Automation
+
+---
+
+## 📌 Project Highlights
+
+- Digital LED control
+- RGB lighting sequences
+- Push-button interfacing
+- PWM brightness adjustment
+- LED & buzzer alert system
+- Light-dependent desktop lamp
+- Automatic street lighting
+
+---
+
+## 🚀 Future Additions
+
+The repository will continue to expand with more embedded systems and IoT projects, including:
+
+- ESP8266 Wi-Fi Projects
+- IoT Home Automation
+- OLED Display Projects
+- Temperature & Humidity Monitoring
+- Smart Security Systems
+- Cloud-connected Arduino Applications
+
+
+
+GitHub: https://github.com/RakshakTrehan
