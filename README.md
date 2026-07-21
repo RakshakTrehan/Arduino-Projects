@@ -93,19 +93,3 @@ Each project contains:
 - Light-dependent desktop lamp
 - Automatic street lighting
 
----
-
-## 🚀 Future Additions
-
-The repository will continue to expand with more embedded systems and IoT projects, including:
-
-- ESP8266 Wi-Fi Projects
-- IoT Home Automation
-- OLED Display Projects
-- Temperature & Humidity Monitoring
-- Smart Security Systems
-- Cloud-connected Arduino Applications
-
-
-
-
