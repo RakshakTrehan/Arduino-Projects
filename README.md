@@ -1,25 +1,30 @@
 # Arduino Projects
 
-![Arduino](https://img.shields.io/badge/Arduino-Uno-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![Language](https://img.shields.io/badge/Language-Arduino%20C%2B%2B-orange?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Tinkercad-red?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+<div align="center">
 
-A collection of Arduino-based embedded systems projects built using **Arduino Uno**, **Arduino IDE**, and **Tinkercad**. This repository demonstrates fundamental concepts including digital I/O, analog sensing, PWM, sensors, and automation through practical hardware projects.
+![Arduino](https://img.shields.io/badge/Arduino-Uno-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![Language](https://img.shields.io/badge/Arduino%20C%2B%2B-Programming-orange?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Tinkercad-Circuit%20Simulation-red?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Projects-8-success?style=for-the-badge)
+
+**A curated collection of Arduino projects showcasing embedded systems fundamentals, sensor interfacing, automation, and hardware programming using Arduino Uno.**
+
+</div>
 
 ---
 
-## 📂 Projects
+## 📂 Project Portfolio
 
 | No. | Project | Description |
 |:---:|---------|-------------|
-| 01 | LED Blink | Basic LED control using digital output |
-| 02 | RGB Traffic Light | RGB LED sequencing with timed state transitions |
-| 03 | Push Button Controlled LED | LED control using a push button input |
-| 04 | PWM Brightness Control | Brightness control using PWM and a potentiometer |
-| 05 | Alert System | LED and buzzer based visual and audible alert |
-| 06 | Smart Desktop Companion Lamp | Automatic desk lamp using an LDR sensor |
-| 07 | Smart Street Light | Automatic street lighting based on ambient light |
+| 01 | **[LED Blink](01_LED_Blink)** | Basic digital output using an LED. |
+| 02 | **[RGB Traffic Light](02_RGB_Traffic_Light)** | RGB LED sequencing with timed state transitions. |
+| 03 | **[Push Button Controlled LED](03_Push_Button_Controlled_LED)** | LED control using digital input from a push button. |
+| 04 | **[PWM Brightness Control](04_PWM_Brightness_Control)** | LED brightness adjustment using PWM and a potentiometer. |
+| 05 | **[Alert System](05_Alert_System)** | LED and buzzer based visual and audible alert system. |
+| 06 | **[Smart Desktop Companion Lamp](06_Smart_Desktop_Companion_Lamp)** | Automatic desktop lamp using ambient light sensing. |
+| 07 | **[Smart Street Light](07_Smart_Street_Light)** | Automatic street lighting based on ambient light intensity. |
+| 08 | **[Soil Moisture Alarm](08_Soil_Moisture_Alarm)** | Soil moisture monitoring with LED and buzzer alerts. |
 
 ---
 
@@ -34,39 +39,44 @@ Arduino-Projects/
 ├── 04_PWM_Brightness_Control/
 ├── 05_Alert_System/
 ├── 06_Smart_Desktop_Companion_Lamp/
-└── 07_Smart_Street_Light/
+├── 07_Smart_Street_Light/
+└── 08_Soil_Moisture_Alarm/
 ```
 
-Each project contains:
+Each project includes:
 
 - Arduino source code (`.ino`)
 - Circuit diagram
-- Project documentation
+- Project documentation (`README.md`)
 - Components used
-- Concepts demonstrated
+- Working principle
+- Embedded systems concepts
 
 ---
 
-## 🛠 Hardware
+## 🛠 Tech Stack
 
-- Arduino Uno
-- Breadboard
+| Category | Technology |
+|----------|------------|
+| Board | Arduino Uno |
+| IDE | Arduino IDE |
+| Language | Arduino C++ |
+| Simulation | Tinkercad |
+
+---
+
+## 🔌 Hardware Used
+
 - LEDs
 - RGB LED
-- LDR (Light Dependent Resistor)
-- Potentiometer
 - Push Button
+- Potentiometer
+- LDR (Light Dependent Resistor)
+- Soil Moisture Sensor
 - Active Buzzer
 - Resistors
+- Breadboard
 - Jumper Wires
-
----
-
-## 💻 Software
-
-- Arduino IDE
-- Tinkercad
-- Arduino C++
 
 ---
 
@@ -75,21 +85,15 @@ Each project contains:
 - Digital Input & Output
 - Analog Input
 - PWM (Pulse Width Modulation)
-- Conditional Logic
 - Sensor Interfacing
+- Conditional Programming
+- Threshold-Based Automation
+- Environmental Monitoring
 - Serial Communication
-- Embedded Programming
-- Basic Automation
+- Embedded Systems Fundamentals
 
----
 
-## 📌 Project Highlights
 
-- Digital LED control
-- RGB lighting sequences
-- Push-button interfacing
-- PWM brightness adjustment
-- LED & buzzer alert system
-- Light-dependent desktop lamp
-- Automatic street lighting
+## 📄 License
 
+This repository is licensed under the MIT License.
